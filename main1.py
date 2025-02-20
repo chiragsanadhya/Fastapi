@@ -15,5 +15,6 @@ async def read_root():
 #uvicorn main:app --reload
 #clrl + Z
 #pkill -9 Python
-
-
+class chirag:
+    def hello(username:str)->str:
+        print("hello",{username}) 
